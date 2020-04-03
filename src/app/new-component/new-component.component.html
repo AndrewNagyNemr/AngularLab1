@@ -1,0 +1,10 @@
+<p>new-component works!</p>
+
+user name
+<br>
+<input type="text" [(ngModel)]="userName" (input)="checkUserName($event)">
+<br> 
+<br>
+<p>{{userName}}</p>
+<br>
+<button (click)="onClick($event)" [disabled]="state">Button</button>
